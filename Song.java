@@ -12,7 +12,7 @@ public class Song {
 	}
 
 	@Override
-	public String toSring() {
-		return this.title + ": " + this.duration;
+	public String toString() {
+		return title + ": " + duration;
 	}
 }
